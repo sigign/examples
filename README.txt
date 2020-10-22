@@ -6,6 +6,7 @@ To build:
 mkdir build
 cd build
 cmake ..
+make
 ./log (runs the C++ main)
 ./logc (runs the C main)
 
