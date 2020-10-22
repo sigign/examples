@@ -6,10 +6,9 @@ main()
     alan::Log4cplusAdapter mn("main");
     alan::Log4cplusAdapter al("alan");
 
-    // Initialization and deinitialization.
     mn.debug("Debug Hello world");
     mn.error("Error");
-    mn.fatal("fatel");
+    mn.fatal("fatal");
     mn.info("info");
     mn.trace("trace");
     mn.warn("warn");
